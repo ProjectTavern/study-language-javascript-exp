@@ -4,7 +4,7 @@ const isPair = (s) => {
     let stack = new Array();
 
     // 받아온 스트링 s의 내용을 분석해서 괄호만 추출하여 stack Array에 담음
-    for(let i=0; ++i < s.length;){
+    for(let i=0; i < s.length; i++){
         if(")" === s[i] || "(" === s[i]) {
             stack.push(s[i]);
         }
@@ -31,5 +31,12 @@ const isPair = (s) => {
     else return result = false;
 }
 
+/**
+ * 테스트용 콘솔로그
+ */
 console.log(isPair("(Hello)()"));
-console.log(isPair(")("));
+console.log(isPair(")())()()"));
+console.log(isPair("(())()(())"));
+console.log(isPair("()()()((()))"));
+console.log(isPair("((((()()))))"));
+console.log(isPair("())("));
