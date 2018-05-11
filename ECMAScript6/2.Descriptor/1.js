@@ -6,3 +6,12 @@ Object.defineProperty(labte, "book", {
 });
 
 console.log(labte.book);
+
+(function () {
+    let source = {};
+
+    Object.defineProperty(source, "TestOne", {
+        get: () => "Classic"
+    });
+    console.log(source.TestOne);
+})();
