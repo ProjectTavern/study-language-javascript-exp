@@ -2,10 +2,10 @@ function printTriangle(num) {
     var result = '';
 
     var i = 0;
-
     for ( i; i < num; i++ ) {
 
     }
+    var Checkout = 0;
 
     return result;
 }
