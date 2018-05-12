@@ -5,7 +5,7 @@ function findKim(seoul){
     var findLength = seoul.length;
     var target = "Kim";
 
-    for ( i = 0; i < findLength; i++ ) {
+    for ( ; i < findLength; i++ ) {
         if ( seoul[i] === target ) {
             idx = i;
         }
