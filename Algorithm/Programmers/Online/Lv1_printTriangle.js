@@ -2,7 +2,9 @@ function printTriangle(num) {
     var result = '';
 
     var i = 0;
-
+  
+    var commitTest = 0;
+  
     for ( ; i < num; i++ ) {
         var k = 0;
         for ( ; k < i + 1; k++ ) {
@@ -10,6 +12,7 @@ function printTriangle(num) {
         }
         result += "\n";
     }
+    var Checkout = 0;
 
     return result;
 }
