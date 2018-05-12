@@ -2,7 +2,7 @@ function printTriangle(num) {
     var result = '';
 
     var i = 0;
-
+    var commitTest = 0;
     for ( i; i < num; i++ ) {
 
     }
