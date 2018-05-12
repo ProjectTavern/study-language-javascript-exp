@@ -2,9 +2,13 @@ function printTriangle(num) {
     var result = '';
 
     var i = 0;
-    var commitTest = 0;
-    for ( i; i < num; i++ ) {
 
+    for ( ; i < num; i++ ) {
+        var k = 0;
+        for ( ; k < i + 1; k++ ) {
+            result += "*";
+        }
+        result += "\n";
     }
 
     return result;
