@@ -10,6 +10,7 @@ graph.jonny = [];
 
 function searchQueue(){
     let queue = [];
+    /* concat can not changed anything. It just return data. */
     queue = queue.concat(graph["you"]);
     while (queue.length !== 0) {
         let person = queue.shift();
