@@ -7,3 +7,24 @@ graph.anuj = [];
 graph.peggy = [];
 graph.thom = [];
 graph.jonny = [];
+
+function searchQueue(){
+    let queue = [];
+    queue = queue.concat(graph["you"]);
+    while (queue.length !== 0) {
+        let person = queue.shift();
+        if (personIsSeller(person)) {
+            console.log(`${person} is mango seller!`);
+            return true;
+        } else {
+            queue = queue.concat(graph[person]);
+        }
+    }
+    return false;
+}
+
+function personIsSeller (name) {
+    return name.match(/m$/);
+}
+
+searchQueue();
