@@ -15,7 +15,7 @@ function searchQueue(){
     let searched = [];
     while (queue.length !== 0) {
         let person = queue.shift();
-        if(!searched.includes(person)){
+        if (!searched.includes(person)) {
             if (personIsSeller(person)) {
                 console.log(`${person} is mango seller!`);
                 return true;
