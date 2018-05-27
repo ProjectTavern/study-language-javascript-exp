@@ -6,6 +6,6 @@ Todo Study
 - ECMA Script 6
 - Vanilla Javascript
 
-## Algorithme
+## Algorithm
 - Recursive
 - Breadth First Seartch
