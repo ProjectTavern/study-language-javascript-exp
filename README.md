@@ -8,4 +8,4 @@ Todo Study
 
 ## Algorithm
 - Recursive
-- Breadth First Seartch
+- Breadth First Search
