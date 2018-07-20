@@ -18,3 +18,9 @@ https://slides.com/
 
 
 ## Curri
+
+
+## Study
+- Webpack
+- Rollup
+- Lerna
