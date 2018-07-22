@@ -21,6 +21,7 @@ https://slides.com/
 
 
 ## Study
+- Basic Grammar
 - Webpack
 - Rollup
 - Lerna
