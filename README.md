@@ -17,7 +17,7 @@ https://slides.com/
 ## Project Repo
 
 
-## Curri
+## Curriculum
 
 
 ## Study
