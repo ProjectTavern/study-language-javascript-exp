@@ -23,6 +23,7 @@ https://slides.com/
 ## Study
 - Basic Grammar
 - Advanced Grammar
+- jQuery
 - Webpack
 - Rollup
 - Lerna
