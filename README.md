@@ -15,10 +15,10 @@ Todo Study
 https://slides.com/
 
 ## Project Repo
-
+- 
 
 ## Curriculum
-
+- 
 
 ## Study
 - Basic Grammar
